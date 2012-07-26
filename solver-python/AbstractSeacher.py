@@ -1,4 +1,6 @@
 class AbstractSeacher(object):
-    """description of class"""
+    """Abstract class for searching/solving algorithms"""
+    def Search(self, initialState):
+        raise NotImplementedError
 
 
