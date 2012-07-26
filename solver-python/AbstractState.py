@@ -27,3 +27,5 @@ class AbstractState(object):
     def parseString(self, input):
         raise NotImplementedError
 
+    score = None
+    hashmapKey = None
