@@ -25,15 +25,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AbstractSeacher.py" />
-    <Compile Include="AbstractState.py" />
     <Compile Include="AStarSearcher.py" />
     <Compile Include="main.py" />
     <Compile Include="SudokuSlot.py" />
     <Compile Include="SudokuState.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PuzzleState.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="solver\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
