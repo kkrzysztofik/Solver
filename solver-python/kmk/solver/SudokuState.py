@@ -1,3 +1,5 @@
+from kmk.solver.AbstractState import AbstractState
+
 class SudokuState(AbstractState):
     """Implementation of Sudoku problem"""
     parent = None

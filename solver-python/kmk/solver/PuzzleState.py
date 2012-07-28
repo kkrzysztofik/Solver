@@ -1,3 +1,5 @@
+from kmk.solver.AbstractState import AbstractState
+
 class PuzzleState(AbstractState):
     """Implementation of Puzzle 2^n-1 problem"""
     parent = None
